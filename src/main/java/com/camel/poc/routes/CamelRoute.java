@@ -1,3 +1,4 @@
+/*
 package com.camel.poc.routes;
 
 import org.apache.camel.CamelContext;
@@ -5,13 +6,9 @@ import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.impl.DefaultCamelContext;
 import org.slf4j.ILoggerFactory;
 import org.slf4j.Logger;
-import org.slf4j.event.EventRecodingLogger;
 
-public class CamelRoute  {
-
-
+public class CamelRoute{
     public static void main(String[] args) throws Exception {
-        Logger log=new EventRecodingLogger();
 
         CamelContext context=new DefaultCamelContext();
         try {
@@ -34,3 +31,4 @@ e.printStackTrace();
         }
     }
 }
+*/
